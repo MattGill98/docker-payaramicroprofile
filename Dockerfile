@@ -1,6 +1,6 @@
 FROM java:8-jdk-alpine
 
-ENV PAYARA_PKG http://repo1.maven.org/maven2/fish/payara/extras/payara-microprofile/1.0-4.1.1.171.0.1/payara-microprofile-1.0-4.1.1.171.0.1.jar
+ENV PAYARA_PKG http://repo1.maven.org/maven2/fish/payara/extras/payara-microprofile/1.0-4.1.1.171.1/payara-microprofile-1.0-4.1.1.171.1.jar
 ENV PKG_FILE_NAME payara-microprofile.jar
 ENV PAYARA_PATH /opt/payara
 
